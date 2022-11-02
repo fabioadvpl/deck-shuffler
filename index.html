@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deck Shuffler - Pokémon</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <div class="item1">
+      <h2>
+        Put your deck list here
+      </h2>
+    </div>
+    <div class="item2">
+      <button id="load-deck" class="button-27 item-menu">Load Deck</button><br />
+      <button id="shuffle" class="button-27 item-menu">Shuffle Deck</button><br />
+      <button id="start-game" class="button-27 item-menu">Start Game</button><br />
+    </div>
+    <div class="item3"><textarea id="deck" rows="60" cols="100"></textarea></div>
+    <div class="item4">
+      <h3>Your Hand</h3>
+      <table id="hand">
+        <thead>
+          <th></th>
+          <th>Card Name</th>
+        </thead>
+        <tbody id="hand-body">
+
+        </tbody>
+      </table>
+      <h3>Your Prizes</h3>
+      <table id="prizes">
+        <thead>
+          <th></th>
+          <th>Card Name</th>
+        </thead>
+        <tbody id="prizes-body">
+
+        </tbody>
+      </table>
+    </div>
+    <div class="item5">By: Fábio Andrade</div>
+  </div>
+
+</body>
+
+<script src="functions.js"></script>
+
+</html>
